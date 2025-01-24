@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Cookie</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn-dark {
+            margin: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/bakemycookie" class="btn btn-dark">Bake My Cookie</a>
+        <a href="/bakemycookiewithoutheaders" class="btn btn-dark">Bake My Cookie Without Headers</a>
+        <a href="/curlmycookie" class="btn btn-dark">Curl My Cookie</a>
+        <a href="/returnmycookie" class="btn btn-dark">Return My Cookie</a>
+    </div>
+    <script src="requestacookie.js"></script>
+</body>
+</html>

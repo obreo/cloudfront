@@ -1,0 +1,19 @@
+{
+  "name": "cloudfront_signed_objects",
+  "version": "1.0.0",
+  "main": "src/cloudfront_restricted_view.js",
+  "scripts": {
+    "start": "node src/cloudfront_restricted_view.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.0.0",
+    "@aws-sdk/cloudfront-signer": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "axios": "^0.24.0",
+    "express-session": "1.18.1"
+  }
+}
